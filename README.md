@@ -15,8 +15,8 @@ Program requirements
 Suggested steps to completing this assignment
 ----------
 1. write two `import` statements at the top of your program:
-  * `from microbit import *`
-  * `import random`
+    * `from microbit import *`
+    * `import random`
 2. Declare and initialize a variable `eggX` with a value of 2
 3. Declare and initialize a variable `eggY` with a value of 2
 4. Underneath the variable declarations, create a `while True:` loop
