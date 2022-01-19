@@ -23,7 +23,7 @@ Suggested steps to completing this assignment
 4. Underneath the variable declarations, create a `while True:` loop
    1. Inside the `while` loop call `display.setpixel()` to display the egg at position `eggX,eggY` with a value of `9`
    2. Set `eggY` to be larger by 1
-   3. sleep for 500 milliseconds
+   3. `sleep` for 500 milliseconds
 
 Extensions
 ----------
