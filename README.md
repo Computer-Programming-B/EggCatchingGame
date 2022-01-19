@@ -1,5 +1,6 @@
 micro:bit Egg Catching Game
 --------------------
+[](EggCatcherGame.gif)   
 In this assignment you will create a "catch the egg" game on your micro:bit in which an egg (represented by a single LED) "falls" from the top of the micro:bit LED display and can be caught by a moveable basket at the bottom.
 
 By default, the first "egg" LED starts to drop from the center of the top line. The basket at the bottom will also be at the center, so the first egg will be very easy to catch. Subsequent "eggs" will then fall from random positions at the top of the display. The basket can be moved by pressing the buttons or by tilting the micro:bit
