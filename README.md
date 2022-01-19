@@ -19,9 +19,11 @@ Suggested steps to completing this assignment
     * `from microbit import *`
     * `import random`
 2. Declare and initialize a variable `eggX` with a value of 2
-3. Declare and initialize a variable `eggY` with a value of 2
+3. Declare and initialize a variable `eggY` with a value of 0
 4. Underneath the variable declarations, create a `while True:` loop
-5. TBD
+   1. Inside the `while` loop call `display.setpixel()` to display the egg at position `eggX,eggY` with a value of `9`
+   2. Set `eggY` to be larger by 1
+   3. sleep for 500 milliseconds
 
 Extensions
 ----------
