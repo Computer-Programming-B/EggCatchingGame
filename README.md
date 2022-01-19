@@ -40,9 +40,9 @@ Suggested steps to moving the basket
 ----------
 10. After `display.clear()`, add two `if` statements
 11. If `basketX` is greater than 0 `and` button a was pressed
-   * Set `basketX` to be smaller by 1
+    * Set `basketX` to be smaller by 1
 12. If `basketX` is less than 4 `and` button b was pressed
-   * Set `basketX` to be larger by 1
+    * Set `basketX` to be larger by 1
 13. Run the program, you should be able to catch the egg. If you miss the egg and it falls past the bottom of the screen, you should see an error message
 
 Suggested steps to ending the game
