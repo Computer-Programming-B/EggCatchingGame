@@ -49,7 +49,7 @@ Suggested steps to moving the basket
 
 Suggested steps to ending the game
 ----------
-14. After `display.clear()`, write an `if` statement that checks if `eggY` is > 4
+14. After `display.clear()`, write an `if` statement that checks if `eggY` is greater than 4
     * if so, use `display.scroll()` to display a game over message
 15. Directly underneath, add an `else:`
 16. Indent *all* the code under the `else:` so that the game continues to play only if the egg has not gone off the bottom of the screen  
