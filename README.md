@@ -24,7 +24,7 @@ Suggested steps to getting the egg to drop
 3. Declare and initialize a variable `eggY` with a value of 0
 4. Underneath the variable declarations, create a `while True:` loop
    1. Inside the `while` loop call `display.clear()`
-   2. On the next line, call `display.setpixel()` to display the egg at position `eggX,eggY` with a value of `9`
+   2. On the next line, call `display.set_pixel()` to display the egg at position `eggX,eggY` with a value of `9`
    3. Set `eggY` to be larger by 1
    4. `sleep` for 500 milliseconds
 5. Run the program, you should see the egg drop. If the egg falls past the bottom of the screen, you should see an error message
@@ -32,7 +32,7 @@ Suggested steps to getting the egg to drop
 Suggested steps to adding the basket
 ----------
 6. Under the other two variable declarations, declare and initialize a variable `basketX` with a value of 2
-7. After `display.clear()`, call `display.setpixel()` to display the basket at position `basketX,4` with a value of `4`
+7. After `display.clear()`, call `display.set_pixel()` to display the basket at position `basketX,4` with a value of `4`
 8. Now we'll see if the egg was caught by the basket. Underneath the `sleep(500), create a `if` that checks if `eggY` is equal to `5` `and` `eggX` is equal to `basketX`
    1. If so, set `eggy` to `0`
    2. Set `eggy` to a random integer from 0 to 4
@@ -49,8 +49,13 @@ Suggested steps to moving the basket
 
 Suggested steps to ending the game
 ----------
-14. TBD
-
+14. After `display.clear()`, write an `if` statement that checks if `eggY` is > 4
+    * if so, use `display.scroll()` to display a game over message
+15. Directly underneath, add an `else:`
+16. Indent *all* the code under the `else:` so that the game continues to play only if the egg has not gone off the bottom of the screen  
+17. Run the program, you should have the basics of a working game
+18. Now you can modify the game to add extra features like a score, animations or levels  
+    
 Extensions
 ----------
 You can move the basket with the accelerometer rather than the buttons. You could also keep score of the number of eggs caught and display the score along with the game over message.
