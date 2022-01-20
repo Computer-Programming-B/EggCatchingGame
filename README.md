@@ -54,7 +54,8 @@ Suggested steps to ending the game
 15. Directly underneath, add an `else:`
 16. Indent *all* the code under the `else:` so that the game continues to play only if the egg has not gone off the bottom of the screen  
 17. Run the program, you should have the basics of a working game
-18. Now you can modify the game to add extra features like a score, animations or levels  
+18. Now you can modify the game to add extra features like a score, animations or levels
+19. Submit the code for your finished program and a short video of it running  
     
 Extensions
 ----------
