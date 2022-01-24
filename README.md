@@ -34,8 +34,8 @@ Suggested steps to adding the basket
 6. Under the other two variable declarations, declare and initialize a variable `basketX` with a value of 2
 7. After `display.clear()`, call `display.set_pixel()` to display the basket at position `basketX,4` with a value of `4`
 8. Now we'll see if the egg was caught by the basket. Underneath the `sleep(500), create a `if` that checks if `eggY` is equal to `5` `and` `eggX` is equal to `basketX`
-   1. If so, set `eggy` to `0`
-   2. Set `eggy` to a random integer from 0 to 4
+   1. If so, set `eggY` to `0`
+   2. Set `eggX` to a random integer from 0 to 4
 9. Run the program, you should see the egg drop. When it reaches the basket, it should drop again from a random position at the top of the screen
 
 Suggested steps to moving the basket
