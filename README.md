@@ -63,4 +63,4 @@ You can move the basket with the accelerometer rather than the buttons. You coul
 
 Samples of Student Work
 ----------
-*none yet!*
+[Evangeline](Evangeline.PNG)   
