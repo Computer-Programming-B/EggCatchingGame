@@ -62,6 +62,7 @@ You can move the basket with the accelerometer rather than the buttons. You coul
 
 Samples of Student Work
 ----------
+[Emerson](EmersonEgg.gif)   
 [Jasmine](JasmineEgg.gif)   
 [Ally](AllyEgg.GIF)   
 [Evangeline](Evangeline.png)   
